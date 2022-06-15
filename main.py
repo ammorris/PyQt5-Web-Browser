@@ -1,6 +1,7 @@
 from PyQt5.QtCore import *
 from PyQt5.QtWebEngineWidgets import *
 from PyQt5.QtWidgets import *
+from PyQt5.QtGui import *
 
 
 class MyWebBrowser:
@@ -9,6 +10,7 @@ class MyWebBrowser:
         self.window = QWidget()
         self.window.setWindowTitle("Guaranteed Good Shit")
 
+        self.window.setWindowIcon(QIcon("Shrimp.ico"))
         self.layout = QVBoxLayout()
         self.horizontal = QHBoxLayout()
 
